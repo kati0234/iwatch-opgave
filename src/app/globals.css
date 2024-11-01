@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* styles.css */
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+  --navy: rgba(67, 69, 88, 0.6);
+  --light-blue: #b6ccda;
+  --color-start: #b6ccda;
+  --color-end: #c8dce5;
+  /*#434558  */
+  /*  rgba(67, 69, 88, 0.6) */
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  /* color: var(--foreground); */
+  /* background: var(--background); */
+
+  background: linear-gradient(
+    to bottom right,
+    var(--color-start),
+    var(--color-end)
+  );
+  font-family: Arial, Helvetica, sans-serif;
+}
