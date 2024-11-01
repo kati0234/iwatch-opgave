@@ -6,11 +6,10 @@ import mint from "../images/mint.png";
 
 const WatchDispaly = () => {
   return (
-    <div className="flex">
-      <Watch bg="text-sky-800" img={navy} alt="navy ur" />
-      <Watch bgcolor="bg-[#434558]" img={mint} alt="mint ur" />
-      <Watch img={ocean} alt="ocean ur" />
-      <div className=" w-2 h-3 bg-slate-600"></div>
+    <div className="flex gap-4 justify-center">
+      <Watch bgcolor="bg-navyColor" img={navy} alt="navy ur" />
+      <Watch bgcolor="bg-mintColor" img={mint} alt="mint ur" />
+      <Watch bgcolor="bg-pinkColor" img={ocean} alt="ocean ur" />
     </div>
   );
 };

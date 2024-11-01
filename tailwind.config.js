@@ -12,7 +12,9 @@ module.exports = {
         foreground: "var(--foreground)",
         navybg: "var(--navy)",
         blue: "var(--light-blue)",
-        navy: "rgba(67, 69, 88, 0.6)",
+        mintColor: "#6ADDCC",
+        navyColor: "#434558",
+        pinkColor: "#F9CDC4",
 
         // tilføj egne farver
       },
